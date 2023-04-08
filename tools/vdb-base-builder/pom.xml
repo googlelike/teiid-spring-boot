@@ -80,7 +80,7 @@
               <goal>repackage</goal>
             </goals>
             <configuration>
-              <artifactItems></artifactItems>
+              <outputDirectory>${project.build.directory}/libs</outputDirectory>
             </configuration>
           </execution>
         </executions>

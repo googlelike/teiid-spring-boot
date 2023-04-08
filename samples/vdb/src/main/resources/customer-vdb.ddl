@@ -21,7 +21,7 @@ CREATE VIRTUAL SCHEMA virt;
 CREATE SCHEMA accounts SERVER mydb;
 
 -- H2 converts the schema name to capital case
-IMPORT FOREIGN SCHEMA MYSCHEMA FROM SERVER mydb INTO accounts OPTIONS("importer.useFullSchemaName" 'false');
+IMPORT FOREIGN SCHEMA TEST FROM SERVER mydb INTO accounts OPTIONS("importer.useFullSchemaName" 'false');
 
 SET SCHEMA accounts;
 CREATE FOREIGN FUNCTION REPEAT (x string, y integer) RETURNS string 

@@ -22,6 +22,7 @@
     <groupId>org.basepom</groupId>
     <artifactId>basepom-oss</artifactId>
     <version>32</version>
+    <relativePath/>
   </parent>
 
   <groupId>org.teiid</groupId>
@@ -123,7 +124,7 @@
     <spring-social.version>1.1.6.RELEASE</spring-social.version>
     <teiid.version>17.0.0-SNAPSHOT</teiid.version>
     <version.xml-apis>1.4.01</version.xml-apis>
-    <ObjectStoreEnvironmentBean.objectStoreDir>${build.dir}</ObjectStoreEnvironmentBean.objectStoreDir>
+    <ObjectStoreEnvironmentBean.objectStoreDir>${build.directory}</ObjectStoreEnvironmentBean.objectStoreDir>
     <hibernate.version>5.4.21.Final</hibernate.version> <!-- Matching with OpenShift SB as it updates it -->
     <version.javax.jws-api>1.1</version.javax.jws-api>
     <version.org.mockito>1.10.19</version.org.mockito>
@@ -143,7 +144,7 @@
     <version.com.cloudera.impala>2.5.31</version.com.cloudera.impala>
     <version.com.sap.cloud.db.jdbc>2.4.76</version.com.sap.cloud.db.jdbc>
     <version.org.apache.derby>10.15.2.0</version.org.apache.derby>
-    <version.com.syncron.amazonaws>2.0.2</version.com.syncron.amazonaws>
+    <version.com.syncron.amazonaws>2.0.35</version.com.syncron.amazonaws>
     <version.com.exasol>6.2.5</version.com.exasol>
     <version.com.ingres.jdbc>10.2-4.1.10</version.com.ingres.jdbc>
     <version.org.apache.phoenix>4.14.3-HBase-1.4</version.org.apache.phoenix>

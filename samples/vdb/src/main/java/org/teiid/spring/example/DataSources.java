@@ -25,9 +25,9 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class DataSources {
-    @ConfigurationProperties(prefix = "spring.datasource.mydb")
+    @ConfigurationProperties(prefix = "spring.datasource.mydb1")
     @Bean
-    public DataSource mydb() {
+    public DataSource mydb1() {
         return DataSourceBuilder.create().build();
     }
 }
